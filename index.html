@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f5f2">
+  <meta name="description" content="AntarktidaUI — дизайн-система ASTRACAT для спокойных, точных интерфейсов.">
+  <title>AntarktidaUI — ASTRACAT Design System</title>
+  <link rel="stylesheet" href="design-system/tokens/index.css">
+  <link rel="stylesheet" href="design-system/system.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Навигация по документации">
+      <a class="brand" href="#top" aria-label="AntarktidaUI — на главную">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand-name">ASTRACAT<span>DESIGN SYSTEM</span></span>
+      </a>
+      <div class="sidebar-caption">БИБЛИОТЕКА <span>0.1</span></div>
+      <nav class="side-nav">
+        <a class="nav-link is-active" href="#overview"><span class="nav-index">00</span>Обзор</a>
+        <a class="nav-link" href="#foundations"><span class="nav-index">01</span>Основа</a>
+        <a class="nav-link" href="#colors"><span class="nav-index">02</span>Цвета</a>
+        <a class="nav-link" href="#type"><span class="nav-index">03</span>Типографика</a>
+        <a class="nav-link" href="#geometry"><span class="nav-index">04</span>Геометрия</a>
+        <a class="nav-link" href="#components"><span class="nav-index">05</span>Компоненты</a>
+        <a class="nav-link" href="#forms"><span class="nav-index">06</span>Формы</a>
+        <a class="nav-link" href="#data"><span class="nav-index">07</span>Данные</a>
+        <a class="nav-link" href="#patterns"><span class="nav-index">08</span>Паттерны</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="system-live"><span class="live-dot"></span><span>Система готова</span><span class="live-rule"></span><code>v0.1</code></div>
+        <div class="sidebar-footer"><span>ANTARKTIDAUI</span><span>2026</span></div>
+      </div>
+    </aside>
+
+    <main id="main" class="main-content">
+      <header class="topbar" id="top">
+        <div class="breadcrumbs"><span>Библиотека</span><span class="crumb-slash">/</span><strong>Обзор</strong></div>
+        <div class="top-actions"><span class="edition"><span class="edition-dot"></span>Foundation preview</span><button class="theme-toggle" type="button" aria-label="Включить тёмную тему" aria-pressed="false"><span class="theme-icon" aria-hidden="true">◐</span><span class="theme-label">Тёмная тема</span></button></div>
+      </header>
+
+      <div class="page-wrap">
+        <section class="hero" id="overview" aria-labelledby="page-title">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-line"></span>ASTRACAT / INTERFACE SYSTEM</div>
+            <h1 id="page-title">Точность,<br><span>которую чувствуешь.</span></h1>
+            <p class="hero-lede">Спокойный визуальный язык для сложных продуктов. Знакомые действия, ясная иерархия и выверенная геометрия в каждой детали.</p>
+            <div class="hero-meta"><span><b>01</b> FOUNDATION</span><span><b>12</b> BASE TOKENS</span><span><b>04</b> SURFACE LEVELS</span></div>
+          </div>
+          <div class="hero-visual" aria-label="Геометрический знак системы">
+            <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+            <div class="axis axis-x"></div><div class="axis axis-y"></div>
+            <div class="visual-core"><span class="core-glyph"><i></i><i></i><i></i></span><span class="core-label">A—01</span></div>
+            <span class="coord coord-top">68° 54′ N</span><span class="coord coord-side">GRID / 08</span>
+            <span class="visual-cross cross-one">+</span><span class="visual-cross cross-two">+</span>
+          </div>
+        </section>
+
+        <section class="principles" aria-label="Принципы системы">
+          <div class="principle"><span class="principle-no">01</span><div><h2>Знакомая логика</h2><p>Паттерны, которые понятны с первого взгляда.</p></div><span class="principle-mark">↗</span></div>
+          <div class="principle"><span class="principle-no">02</span><div><h2>Свой характер</h2><p>Точная графика вместо готового шаблона.</p></div><span class="principle-mark">↗</span></div>
+          <div class="principle"><span class="principle-no">03</span><div><h2>Выверенный ритм</h2><p>Общий шаг 4 px. Рабочий ритм 8 px.</p></div><span class="principle-mark">↗</span></div>
+        </section>
+
+        <section class="section-block" id="foundations">
+          <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span>01 / FOUNDATION</div><h2>Основа системы</h2></div><p>Четыре уровня поверхности задают глубину без лишних карточек и тяжёлых теней.</p></div>
+          <div class="surface-demo">
+            <div class="surface-stage"><div class="surface-sample surface-base"><span class="surface-label">BASE</span><span class="surface-caption">Фон страницы</span><span class="surface-code">--surface-base</span></div><div class="surface-sample surface-sunken"><span class="surface-label">SUNKEN</span><span class="surface-caption">Вложенная область</span><span class="surface-code">--surface-sunken</span></div><div class="surface-sample surface-raised"><span class="surface-label">RAISED</span><span class="surface-caption">Плавающий слой</span><span class="surface-code">--surface-raised</span></div></div>
+            <div class="surface-note"><span class="note-mark">↳</span><p><strong>Поверхность — смысловой инструмент.</strong><br>Используем отдельный контейнер, только когда данные образуют самостоятельную сущность.</p></div>
+          </div>
+        </section>
+
+        <section class="section-block" id="colors">
+          <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span>02 / COLOR ROLES</div><h2>Цвет по назначению</h2></div><p>Нейтральная минеральная база и один холодный акцент. Семантические имена сохраняют смысл в обеих темах.</p></div>
+          <div class="color-grid">
+            <div class="color-family"><div class="color-swatch swatch-canvas"><span>01</span><span>Canvas</span></div><div class="color-info"><b>Базовая поверхность</b><code>--color-bg</code></div></div>
+            <div class="color-family"><div class="color-swatch swatch-ink"><span>02</span><span>Ink</span></div><div class="color-info"><b>Основной текст</b><code>--color-text</code></div></div>
+            <div class="color-family"><div class="color-swatch swatch-action"><span>03</span><span>Glacier</span></div><div class="color-info"><b>Действие</b><code>--color-action</code></div></div>
+            <div class="color-family"><div class="color-swatch swatch-positive"><span>04</span><span>Stable</span></div><div class="color-info"><b>Положительное</b><code>--color-positive</code></div></div>
+            <div class="color-family"><div class="color-swatch swatch-warning"><span>05</span><span>Notice</span></div><div class="color-info"><b>Предупреждение</b><code>--color-warning</code></div></div>
+          </div>
+        </section>
+
+        <section class="section-block type-section" id="type">
+          <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span>03 / TYPOGRAPHY</div><h2>Тихая иерархия</h2></div><p>Нейтральная системная гарнитура, компактные заголовки и щедрый интерлиньяж в тексте.</p></div>
+          <div class="type-specimen"><div class="type-row type-display"><span class="type-role">DISPLAY / 48</span><span class="type-sample">Северный курс</span><span class="type-size">48 / 52 · 600</span></div><div class="type-row type-headline"><span class="type-role">HEADLINE / 32</span><span class="type-sample">Чёткая система</span><span class="type-size">32 / 40 · 600</span></div><div class="type-row type-title"><span class="type-role">TITLE / 20</span><span class="type-sample">Данные под контролем</span><span class="type-size">20 / 28 · 500</span></div><div class="type-row type-body"><span class="type-role">BODY / 15</span><span class="type-sample">Защищённое соединение активно. Последняя проверка — 2 минуты назад.</span><span class="type-size">15 / 24 · 400</span></div><div class="type-row type-label"><span class="type-role">LABEL / 12</span><span class="type-sample">СЕТЕВОЙ СТАТУС</span><span class="type-size">12 / 16 · 600</span></div></div>
+        </section>
+
+        <section class="section-block" id="geometry">
+          <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span>04 / GEOMETRY</div><h2>Ритм и пропорции</h2></div><p>Базовый шаг 4 px. Основные интервалы следуют восьмипиксельному ритму.</p></div>
+          <div class="geometry-grid"><div class="spacing-panel"><div class="mini-heading">SPACING SCALE <span>px</span></div><div class="spacing-bars"><div style="--bar:4px"><b>4</b></div><div style="--bar:8px"><b>8</b></div><div style="--bar:12px"><b>12</b></div><div style="--bar:16px"><b>16</b></div><div style="--bar:24px"><b>24</b></div><div style="--bar:32px"><b>32</b></div><div style="--bar:48px"><b>48</b></div><div style="--bar:64px"><b>64</b></div></div></div><div class="radius-panel"><div class="mini-heading">RADIUS <span>4 LEVELS</span></div><div class="radius-examples"><div><i class="radius-xs"></i><span>XS · 4</span></div><div><i class="radius-sm"></i><span>SM · 8</span></div><div><i class="radius-md"></i><span>MD · 12</span></div><div><i class="radius-lg"></i><span>LG · 16</span></div></div></div></div>
+        </section>
+
+        <section class="section-block" id="components">
+          <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span>05 / PRIMITIVES</div><h2>Компоненты</h2></div><p>Сдержанные состояния и уверенная иерархия действий. Одинаковый размер — одна геометрия.</p></div>
+          <div class="component-board">
+            <div class="board-cell button-cell"><div class="mini-heading">BUTTON <span>40 PX</span></div><div class="button-row"><button class="button button-action" type="button">Продолжить <span aria-hidden="true">↗</span></button><button class="button button-neutral" type="button">Настройки</button><button class="button button-quiet" type="button">Отмена</button></div><div class="button-row"><button class="button button-positive" type="button"><span class="button-check">✓</span> Защищено</button><button class="button button-critical" type="button">Отключить</button><button class="button button-icon" type="button" aria-label="Дополнительные действия">···</button></div></div>
+            <div class="board-cell status-cell"><div class="mini-heading">STATUS <span>LIVE STATE</span></div><div class="status-list"><div class="service-row"><span class="service-name"><i class="status-dot dot-good"></i>VPN Protection</span><span class="status-value">Защищено</span><span class="status-latency">31 ms</span></div><div class="service-row"><span class="service-name"><i class="status-dot dot-good"></i>DNS Resolver</span><span class="status-value">Стабильно</span><span class="status-latency">18 ms</span></div><div class="service-row"><span class="service-name"><i class="status-dot dot-warn"></i>Gateway 04</span><span class="status-value status-muted">Обслуживание</span><span class="status-latency">—</span></div></div></div>
+            <div class="board-cell tab-cell"><div class="mini-heading">SEGMENTED NAVIGATION <span>ARIA TABS</span></div><div class="tabs" role="tablist" aria-label="Период трафика"><button role="tab" aria-selected="true" class="tab is-selected" type="button">7 дней</button><button role="tab" aria-selected="false" class="tab" type="button">30 дней</button><button role="tab" aria-selected="false" class="tab" type="button">90 дней</button></div><p class="tab-feedback" aria-live="polite">Показан период: 7 дней</p></div>
+            <div class="board-cell alert-cell"><div class="mini-heading">INLINE NOTICE <span>NON-BLOCKING</span></div><div class="notice"><span class="notice-symbol">i</span><p><b>Автопродление включено</b><span>Следующее списание — 18 октября.</span></p><button type="button" aria-label="Закрыть уведомление">×</button></div></div>
+          </div>
+        </section>
+
+        <section class="section-block" id="forms">
+          <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span>06 / INPUT</div><h2>Формы без шума</h2></div><p>Общая высота, контрастный focus и спокойная обратная связь помогают видеть суть.</p></div>
+          <div class="form-demo"><div class="field"><label for="email">Рабочая почта</label><div class="input-wrap"><span class="input-prefix" aria-hidden="true">@</span><input id="email" type="email" value="alex@astracat.io" autocomplete="email"></div><span class="field-hint">Уведомления о подписке и безопасности.</span></div><div class="field"><label for="region">Регион подключения</label><div class="select-wrap"><select id="region"><option>Нидерланды · Амстердам</option><option>Финляндия · Хельсинки</option></select><span aria-hidden="true">⌄</span></div><span class="field-hint">Выберите ближайшую точку доступа.</span></div><div class="field field-toggle"><label class="switch-label" for="switch"><span><b>Защита при запуске</b><small>Подключаться автоматически</small></span><input id="switch" type="checkbox" role="switch" checked><span class="switch-track" aria-hidden="true"><i></i></span></label><span class="field-hint">Изменения применяются сразу.</span></div></div>
+        </section>
+
+        <section class="section-block" id="data">
+          <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span>07 / DATA DISPLAY</div><h2>Данные в порядке</h2></div><p>Стабильные колонки, табличные цифры и постоянная высота строк.</p></div>
+          <div class="data-table-wrap"><table class="data-table"><caption class="visually-hidden">Список недавних подключений</caption><thead><tr><th scope="col">ПОДКЛЮЧЕНИЕ</th><th scope="col">РАСПОЛОЖЕНИЕ</th><th scope="col">ТРАФИК</th><th scope="col">СОСТОЯНИЕ</th></tr></thead><tbody><tr><td><span class="table-primary">Рабочая сеть</span><span class="table-secondary">Сегодня, 10:42</span></td><td>Амстердам, NL</td><td class="numeric">2.48 <span>GB</span></td><td><span class="table-status"><i class="status-dot dot-good"></i>Активно</span></td></tr><tr><td><span class="table-primary">Мобильное устройство</span><span class="table-secondary">Сегодня, 08:16</span></td><td>Хельсинки, FI</td><td class="numeric">0.86 <span>GB</span></td><td><span class="table-status"><i class="status-dot dot-good"></i>Завершено</span></td></tr><tr><td><span class="table-primary">Домашняя сеть</span><span class="table-secondary">Вчера, 21:03</span></td><td>Стокгольм, SE</td><td class="numeric">4.12 <span>GB</span></td><td><span class="table-status"><i class="status-dot dot-neutral"></i>Завершено</span></td></tr></tbody></table></div>
+        </section>
+
+        <section class="section-block patterns-section" id="patterns">
+          <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span>08 / SIGNATURE PATTERN</div><h2>Signal / защита</h2></div><p>Фирменный паттерн собирает важные сигналы в одну ясную последовательность.</p></div>
+          <div class="signal-panel"><div class="signal-main"><div class="signal-kicker"><span class="signal-icon"><span></span></span><span>ASTRACAT NETWORK</span><span class="signal-live"><i></i> LIVE</span></div><h3>Защищённое<br>соединение</h3><p>Трафик зашифрован и проходит через частный шлюз.</p><div class="signal-actions"><button class="button button-signal" type="button">Управление соединением <span>↗</span></button><span class="signal-updated">ПРОВЕРЕНО 2 МИН НАЗАД</span></div></div><div class="signal-readout"><div class="readout-coord"><span>ТОЧКА ВЫХОДА</span><b>Амстердам <i>NL</i></b><small>52.3676° N &nbsp; 4.9041° E</small></div><div class="readout-metrics"><div><span>ЗАДЕРЖКА</span><b>31 <small>ms</small></b></div><div><span>ШИФРОВАНИЕ</span><b>AES—256</b></div></div><div class="signal-wave" aria-label="Стабильность сигнала"><span style="--h:22%"></span><span style="--h:38%"></span><span style="--h:28%"></span><span style="--h:54%"></span><span style="--h:40%"></span><span style="--h:72%"></span><span style="--h:46%"></span><span style="--h:61%"></span><span style="--h:35%"></span><span style="--h:78%"></span><span style="--h:55%"></span><span style="--h:44%"></span><span style="--h:68%"></span><span style="--h:51%"></span><span style="--h:86%"></span><span style="--h:63%"></span><span style="--h:42%"></span><span style="--h:73%"></span><span style="--h:48%"></span><span style="--h:65%"></span><span style="--h:33%"></span><span style="--h:57%"></span><span style="--h:80%"></span><span style="--h:47%"></span></div><div class="wave-labels"><span>СИГНАЛ · 24 ОБНОВЛЕНИЯ</span><span>СТАБИЛЕН</span></div></div><div class="signal-footer"><span><i class="status-dot dot-good"></i>Все системы работают</span><span>ПРОТОКОЛ <b>WIREGUARD</b></span><span>УЗЕЛ <b>AMS—04</b></span></div></div>
+        </section>
+
+        <footer class="page-footer"><a class="footer-brand" href="#top"><span class="brand-mark small" aria-hidden="true"><i></i><i></i><i></i></span>ASTRACAT</a><span>ANTARKTIDAUI · DESIGN SYSTEM FOUNDATION</span><a href="#top">НАВЕРХ ↑</a></footer>
+      </div>
+    </main>
+  </div>
+  <script src="design-system/interactions.js" defer></script>
+</body>
+</html>
