@@ -46,6 +46,20 @@ Twig namespace: `@ui` → `design-system/components/`. Набор пока яв�
 
 Ошибка связывается с полем через `aria-describedby` и `aria-invalid`.
 
+## Select
+
+```twig
+{% include '@ui/select.html.twig' with {
+  id: 'connection-region', name: 'region', label: 'Регион подключения',
+  value: 'nl', options: [
+    {value: 'nl', label: 'Нидерланды · Амстердам'},
+    {value: 'fi', label: 'Финляндия · Хельсинки'}
+  ]
+} only %}
+```
+
+Меню использует theme-aware raised surface, управляется мышью и клавиатурой (стрелки, Home/End, Enter, Escape) и сохраняет выбранное значение в hidden input.
+
 ## Signal
 
 ```twig
