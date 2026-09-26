@@ -1,0 +1,38 @@
+name: Ошибка интерфейса
+description: Сообщить о визуальной ошибке или проблеме поведения компонента
+labels: [bug]
+body:
+  - type: input
+    id: component
+    attributes:
+      label: Компонент или страница
+      placeholder: Например, Select на странице Design System
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Фактическое поведение
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Тема
+      options:
+        - Светлая
+        - Тёмная
+        - Обе
+    validations:
+      required: true
+  - type: input
+    id: viewport
+    attributes:
+      label: Размер экрана и браузер
+      placeholder: Например, 390 px · Safari
